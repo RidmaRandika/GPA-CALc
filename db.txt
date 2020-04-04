@@ -1,0 +1,4 @@
+CREATE TABLE `fosgpa`.`course_unit` ( `cuz_id` INT NOT NULL AUTO_INCREMENT , `cuz_name` VARCHAR(50) NOT NULL , `credit` INT(10) NOT NULL , PRIMARY KEY (`cuz_id`)) ENGINE = InnoDB;
+
+
+INSERT INTO `course_unit` (`cuz_id`, `cuz_name`, `credit`) VALUES ('1', 'programming techniques', '3')
